@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^0.0.0"
+    "react-scripts": "^0.0.0",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
     "cross-env": "^7.0.3"
@@ -14,12 +15,20 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false",
-    "test:ci": "cross-env CI=true react-scripts test --watchAll=false"
+    "test:ci": "cross-env CI=true react-scripts test --watchAll=false",
+    "lint": "echo 'No lint configured' && exit 0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead"
+      "not dead",
+      "not op_mini all"
     ],
     "development": [
       "last 1 chrome version"
