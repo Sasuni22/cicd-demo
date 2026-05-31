@@ -1,6 +1,6 @@
 # 🚀 CI/CD Demo App (Full-Stack Project)
 
-A full-stack web application built to demonstrate modern software development practices including CI/CD concepts, API development, and cloud database integration.
+A full-stack web application built to demonstrate modern software development practices including CI/CD concepts, API development and cloud database integration.
 
 ---
 
