@@ -39,7 +39,7 @@ It is built to simulate a real-world production workflow with frontend, backend 
 
 ---
 
-## ⚙️ Features
+##  Features
 
 - ➕ Add new items
 - 📄 View stored items
