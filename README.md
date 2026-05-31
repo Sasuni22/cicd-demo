@@ -12,7 +12,7 @@ This project is a simple item management system where users can:
 - View all added items
 - Store data persistently in a cloud database
 
-It is built to simulate a real-world production workflow with frontend, backend, and database integration.
+It is built to simulate a real-world production workflow with frontend, backend and database integration.
 
 ---
 
